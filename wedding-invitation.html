@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mohd Azharudin &amp; Saimaa Naaz – Paigam-e-Shaadi | Wedding Invitation</title>
+<meta name="description" content="You are warmly invited to the wedding of Mohd Azharudin &amp; Saimaa Naaz. Invitation by Taaj Mohd Maniyar. Rashme Bhaat, Rasm-e-Walima and Nikah details inside.">
+<meta property="og:title" content="Mohd Azharudin &amp; Saimaa Naaz – Wedding Invitation">
+<meta property="og:description" content="Join us in celebrating the blessed wedding of Mohd Azharudin &amp; Saimaa Naaz.">
+<meta name="theme-color" content="#f8f1e3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌙%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+Devanagari:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#fbf7ee; --cream:#f3ead7; --gold:#b8963e; --gold-l:#d9bf7a; --sage:#8a9a7b; --sage-d:#5f6f52; --ink:#4a2f2f;--maroon:#7b1e2b;
+  --serif:"Cormorant Garamond","Times New Roman",Georgia,serif;
+  --ar:"Amiri","Traditional Arabic","Geeza Pro","Noto Naskh Arabic",serif;
+  --hi:"Noto Sans Devanagari","Mangal","Nirmala UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --ivory:#fbf7ee; --cream:#f3ead7; --ink:#4a2f2f;--maroon:#7b1e2b; } /* invitation keeps its ivory design in both modes */
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;background:var(--ivory)}
+body{font-family:var(--serif);color:var(--ink);background:var(--ivory);line-height:1.6;font-size:18px;overflow-x:hidden;
+  padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+.pattern{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' stroke='%23b8963e' stroke-opacity='.22' stroke-width='.8'%3E%3Cpath d='M30 4l6.5 15.7L52 13.5 45.8 30 52 46.5l-15.5-6.2L30 56l-6.5-15.7L8 46.5 14.2 30 8 13.5l15.5 6.2z'/%3E%3Ccircle cx='30' cy='30' r='7'/%3E%3C/g%3E%3C/svg%3E");background-size:60px}
+.ar{font-family:var(--ar);direction:rtl;line-height:2.1;padding:.2em 0;overflow:visible}
+.hi{font-family:var(--hi);line-height:1.9}
+.gold{background:linear-gradient(120deg,#6e1a28,#a3323f 50%,#6e1a28);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* ---------- Opening envelope ---------- */
+#intro{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;
+  background:radial-gradient(circle at 50% 40%,#fffaf0,#efe3c8);transition:opacity 1s ease,visibility 1s;padding:20px}
+#intro.gone{opacity:0;visibility:hidden}
+.env{position:relative;width:min(88vw,380px);aspect-ratio:1.45;perspective:1200px;filter:drop-shadow(0 18px 28px rgba(90,70,30,.25))}
+.env .back{position:absolute;inset:0;background:#e9dcc0;border:1.5px solid var(--gold);border-radius:6px}
+.env .card{position:absolute;left:6%;right:6%;top:6%;bottom:6%;background:var(--ivory);border:1px solid var(--gold-l);border-radius:4px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;transition:transform 1.1s cubic-bezier(.2,.8,.2,1) .7s;z-index:1}
+.env .card .ar{font-size:clamp(20px,6vw,28px);color:var(--gold)}
+.env .front{position:absolute;inset:0;z-index:3;border-radius:6px;pointer-events:none;
+  background:linear-gradient(135deg,transparent 49.6%,rgba(184,150,62,.5) 50%,transparent 50.4%) left/50% 100% no-repeat,
+             linear-gradient(225deg,transparent 49.6%,rgba(184,150,62,.5) 50%,transparent 50.4%) right/50% 100% no-repeat;
+  background-color:transparent}
+.env .pocket{position:absolute;left:0;right:0;bottom:0;height:62%;z-index:2;background:#f1e5c8;border:1.5px solid var(--gold);border-top:0;border-radius:0 0 6px 6px;
+  clip-path:polygon(0 0,50% 55%,100% 0,100% 100%,0 100%)}
+.env .flap{position:absolute;left:0;right:0;top:0;height:58%;z-index:4;transform-origin:top;transition:transform .9s ease,z-index 0s .45s;
+  background:linear-gradient(180deg,#eadcbc,#f5ebd2);clip-path:polygon(0 0,100% 0,50% 100%);border-top:1.5px solid var(--gold)}
+.seal{position:absolute;left:50%;top:50%;width:68px;height:68px;margin:-34px 0 0 -34px;z-index:6;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#e8d08e,#b8963e 60%,#8a6c22);display:flex;align-items:center;justify-content:center;
+  color:#fff8e4;font-size:19px;font-weight:600;letter-spacing:.02em;box-shadow:0 4px 10px rgba(0,0,0,.28),inset 0 0 0 3px rgba(255,248,228,.35);transition:opacity .4s,transform .5s}
+.env.open .flap{transform:rotateX(180deg);z-index:0}
+.env.open .seal{opacity:0;transform:scale(.4)}
+.env.open .card{transform:translateY(-34%)}
+.bismillah{font-family:var(--ar);font-size:clamp(26px,7.5vw,36px);color:var(--gold);direction:rtl;text-align:center;line-height:2}
+.btn{font-family:var(--serif);font-size:18px;letter-spacing:.12em;text-transform:uppercase;color:#fff;border:0;cursor:pointer;
+  padding:14px 34px;border-radius:40px;background:linear-gradient(135deg,#a8842f,#d9bf7a 50%,#a8842f);box-shadow:0 6px 16px rgba(150,115,35,.35);transition:transform .25s,box-shadow .25s}
+.btn:hover{transform:translateY(-2px)} .btn:active{transform:scale(.97)} .btn[disabled]{opacity:.65;cursor:wait}
+
+/* ---------- Layout ---------- */
+main{opacity:0;transition:opacity 1.2s ease .2s}
+main.show{opacity:1}
+section{padding:64px 20px;position:relative}
+.wrap{max-width:720px;margin:0 auto;text-align:center}
+.hero{min-height:100svh;display:flex;align-items:center;background-color:var(--cream)}
+.frame{border:1.5px solid var(--gold);outline:1px solid var(--gold-l);outline-offset:6px;border-radius:6px;padding:44px 22px;background:rgba(251,247,238,.93);margin:8px}
+.hero .ar.big{font-size:clamp(30px,9vw,46px);color:var(--gold)}
+.msg{font-size:clamp(17px,4.6vw,20px);max-width:34em;margin:18px auto;color:#5a4e3d}
+.names{font-size:clamp(38px,11vw,66px);line-height:1.15;font-weight:500;margin:10px 0}
+.amp{display:block;font-style:italic;font-size:.55em;color:var(--sage-d)}
+.by{letter-spacing:.14em;text-transform:uppercase;font-size:14px;color:var(--sage-d)}
+.divider{display:flex;align-items:center;justify-content:center;gap:12px;margin:18px auto;color:var(--gold);max-width:320px}
+.divider::before,.divider::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
+.divider::after{transform:scaleX(-1)}
+h2{font-weight:500;font-size:clamp(28px,7.5vw,40px);letter-spacing:.04em;margin-bottom:6px}
+.sub{color:var(--sage-d);font-style:italic;margin-bottom:30px}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* events */
+.events{display:grid;gap:22px}
+.ev{position:relative;background:linear-gradient(#fffdf7,#f8f0dd);border:1.5px solid var(--gold-l);border-radius:10px;padding:34px 22px 26px;box-shadow:0 10px 26px rgba(120,95,40,.12);text-align:center}
+.ev::before{content:"";position:absolute;inset:7px;border:1px solid rgba(184,150,62,.4);border-radius:6px;pointer-events:none}
+.ev .no{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--sage);color:#fff;font-size:13px;letter-spacing:.18em;padding:3px 16px;border-radius:20px;text-transform:uppercase}
+.ev h3{font-size:30px;font-weight:600;color:var(--maroon);margin-bottom:10px}
+.ev p{margin:2px 0}.ev .when{font-size:20px;font-weight:500}
+.ev .venue{margin:10px auto 18px;max-width:20em;color:#5a4e3d}
+.link{display:inline-block;color:var(--sage-d);border:1px solid var(--sage);padding:9px 22px;border-radius:30px;text-decoration:none;font-size:16px;letter-spacing:.08em;transition:background .25s,color .25s}
+.link:hover{background:var(--sage);color:#fff}
+.ev.next{border-color:var(--gold);box-shadow:0 12px 30px rgba(184,150,62,.3)}
+
+/* countdown */
+.count{background-color:var(--cream)}
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:480px;margin:22px auto 8px}
+.cd div{background:var(--ivory);border:1.5px solid var(--gold-l);border-radius:10px;padding:14px 4px}
+.cd b{display:block;font-size:clamp(28px,8vw,42px);font-weight:600;color:#8a6c22;font-variant-numeric:tabular-nums;line-height:1.1}
+.cd span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--sage-d)}
+#cdLabel{font-size:20px}
+
+/* dua */
+.lantern{background:none;border:0;cursor:pointer;font:inherit;color:var(--sage-d);display:inline-flex;flex-direction:column;align-items:center;gap:8px;letter-spacing:.1em;text-transform:uppercase;font-size:15px;animation:glow 3s ease-in-out infinite}
+.lantern svg{width:72px;height:72px;filter:drop-shadow(0 0 8px rgba(217,191,122,.7));transition:transform .8s}
+.lantern.on svg{transform:rotate(180deg) scale(.8)}
+@keyframes glow{50%{transform:translateY(-6px)}}
+.dua{margin:26px auto 0;max-width:460px;background:linear-gradient(#fffdf7,#f8f0dd);border:1.5px solid var(--gold-l);border-radius:10px;padding:28px 20px;box-shadow:0 10px 26px rgba(120,95,40,.12);animation:rise .9s ease both}
+.dua .ar{font-size:clamp(24px,6.5vw,30px);color:var(--gold)}
+.dua .tr{font-style:italic;color:var(--sage-d);margin:6px 0 10px}
+.dua .link{margin-top:16px;background:none;cursor:pointer;font-family:inherit}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}}
+.petal{position:fixed;top:-30px;z-index:5;pointer-events:none;width:14px;height:18px;border-radius:80% 0 80% 0;background:linear-gradient(135deg,#e9d6a0,#c9a24a);opacity:.7;animation:fall linear forwards}
+@keyframes fall{to{transform:translate(var(--dx),110vh) rotate(540deg);opacity:0}}
+.cal{display:block;width:max-content;margin:12px auto 0;font-size:14px;color:#8a6c22;text-decoration:underline;text-underline-offset:3px}
+
+
+/* printed-card style sections */
+.pcard{border:2px solid var(--maroon);outline:1px dotted var(--maroon);outline-offset:6px;background:#fffdf8;border-radius:4px;padding:34px 18px;margin:8px;position:relative}
+.pcard .quote{color:var(--maroon);font-size:clamp(17px,4.6vw,20px)}
+.title-pill{display:inline-block;border:2px solid var(--maroon);border-radius:10px;padding:6px 26px;font-size:clamp(26px,7vw,36px);color:var(--maroon);margin:14px 0 4px;font-family:var(--hi);font-weight:500}
+.date-pill{display:inline-block;background:var(--maroon);color:#fff;border-radius:30px;padding:6px 22px;font-family:var(--hi);font-size:clamp(16px,4.5vw,20px);margin:6px 0 16px}
+.pair{display:grid;gap:22px;margin:22px 0;color:var(--maroon)}
+.pair h3{font-family:var(--hi);font-size:clamp(26px,7vw,34px);font-weight:500;line-height:1.5}
+.pair p{font-family:var(--hi);font-size:16px;color:#5a3a3a;line-height:1.8}
+.heart{width:64px;height:58px;margin:auto;display:flex;align-items:center;justify-content:center;font-family:var(--hi);font-size:12px;color:var(--maroon);border:1.5px solid var(--maroon);border-radius:50% 50% 50% 50%/60% 60% 40% 40%}
+.para{font-family:var(--hi);font-size:clamp(16px,4.3vw,18px);color:#4a2f2f;max-width:36em;margin:14px auto}
+.prog{display:grid;gap:10px;margin:18px 0;font-family:var(--hi);text-align:left}
+.prog div{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted var(--gold);padding:8px 2px;flex-wrap:wrap;color:var(--maroon);font-size:clamp(15px,4vw,18px)}
+.prog b{font-weight:500}
+.sides{display:grid;gap:22px;font-family:var(--hi);margin:20px 0}
+.sides h4{color:var(--maroon);font-weight:500;font-size:18px;margin-bottom:4px}
+.sides p{font-size:16px;color:#4a2f2f;line-height:1.9}
+.kids{font-family:var(--hi);background:#f8ecec;border-radius:8px;padding:16px;margin:18px 0;color:var(--maroon)}
+.kids small{display:block;margin-top:6px;color:#5a3a3a;font-size:15px}
+.contact a{color:var(--maroon);text-decoration:none;display:inline-block;margin:2px 8px;border-bottom:1px solid var(--gold);font-family:var(--serif);font-size:19px}
+.muntazir{font-family:var(--hi);font-size:15px;line-height:2;color:#4a2f2f;margin-top:8px}
+.note{font-family:var(--hi);color:var(--maroon);font-size:16px;border-top:1px solid var(--maroon);margin-top:20px;padding-top:14px}
+@media (min-width:760px){.pair{grid-template-columns:1fr auto 1fr;align-items:center}.sides{grid-template-columns:1fr 1fr;text-align:left}.sides .r{text-align:right}.wrap.card{max-width:860px}}
+/* share/footer */
+.wa{display:inline-flex;align-items:center;gap:10px;background:#25a05a;color:#fff;text-decoration:none;border:0;cursor:pointer;font:inherit;font-size:18px;letter-spacing:.06em;padding:14px 28px;border-radius:40px;box-shadow:0 6px 16px rgba(37,160,90,.3);transition:transform .25s}
+.wa:hover{transform:translateY(-2px)}
+footer{padding:50px 20px 60px;text-align:center;background:var(--cream)}
+footer .ar{font-size:26px;color:var(--gold)}
+.flor{width:64px;height:64px;display:block;margin:0 auto 6px;opacity:.9}
+@media (min-width:760px){.events{grid-template-columns:repeat(3,1fr)}.wrap.wide{max-width:1040px}.ev{padding:36px 18px 26px}}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="flower" viewBox="0 0 64 64">
+    <g fill="none" stroke="#b8963e" stroke-width="1.2" stroke-linecap="round">
+      <path d="M32 6c5 8 5 14 0 20-5-6-5-12 0-20zM32 58c5-8 5-14 0-20-5 6-5 12 0 20zM6 32c8-5 14-5 20 0-6 5-12 5-20 0zM58 32c-8-5-14-5-20 0 6 5 12 5 20 0z"/>
+      <path d="M13.5 13.5c8 1 12 4 14 10-6-1-11-4-14-10zM50.5 50.5c-8-1-12-4-14-10 6 1 11 4 14 10zM50.5 13.5c-1 8-4 12-10 14 1-6 4-11 10-14zM13.5 50.5c1-8 4-12 10-14-1 6-4 11-10 14z" stroke="#8a9a7b"/>
+      <circle cx="32" cy="32" r="4" fill="#d9bf7a"/>
+    </g>
+  </symbol>
+</svg>
+
+<!-- Opening envelope -->
+<div id="intro" class="pattern">
+  <div class="env" id="env">
+    <div class="back"></div>
+    <div class="card"><div class="ar">بِسْمِ اللَّهِ</div><svg class="flor" width="44" height="44"><use href="#flower"/></svg></div>
+    <div class="pocket"></div>
+    <div class="front"></div>
+    <div class="flap"></div>
+    <div class="seal" aria-label="Seal: A and S">A &amp; S</div>
+  </div>
+  <div class="bismillah" lang="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+  <button class="btn" id="openBtn" type="button">Open Invitation</button>
+</div>
+
+<main id="main">
+  <section class="hero pattern">
+    <div class="wrap card">
+      <div class="pcard">
+        <svg class="flor" width="64" height="64"><use href="#flower"/></svg>
+        <p class="gold" style="font-size:clamp(34px,10vw,52px);font-style:italic">Invitation</p>
+        <div class="title-pill">पैगाम-ए-शादी</div><br>
+        <div class="date-pill">शनिवार, 28 नवम्बर 2026</div>
+        <div class="ar big" lang="ar" style="font-size:clamp(26px,8vw,38px);color:var(--gold)">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+        <p class="para quote hi" lang="hi">“शुरू अल्लाह के नाम से जो बड़ा मेहरबान व निहायत रहम वाला है”</p>
+        <p class="para hi" lang="hi">फलक से चाँद उतरेगा, तारे मुस्कुरायेंगे।<br>हमें खुशी तब होगी, जब हमारी शादी में आयेंगे।।</p>
+        <h1 class="names gold">Mohd Azharudin <span class="amp">&amp;</span> Saimaa Naaz</h1>
+        <p class="by">Invitation by Taaj Mohd Maniyar</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pattern" style="background-color:var(--cream)">
+    <div class="wrap card reveal">
+      <div class="pcard">
+        <p class="para hi" lang="hi">जिन्हें मोहब्बत होती है वो बिन बुलाये चले आते है।<br>हमारी महफिल में फूल नहीं, दिल बिछाये जाते है।।</p>
+        <div class="pair">
+          <div><h3>मो. अजरूद्दीन</h3><p>पोता : मरहूम जनाब बोदू खां जी<br>फरजन्द : मरहूम हुसैन खां बाय के गौरी<br>मुकाम : भुल्ड़ा का बास वाले, कलोल</p></div>
+          <div class="heart">हमराह</div>
+          <div><h3>साइमा नाज</h3><p>पोती : मरहूम शम्सुद्दीन जी<br>दुख्तर : रियाजुद्दीन जी<br>मुकाम : फिरोजाबाद</p></div>
+        </div>
+        <p class="hi" style="color:var(--maroon)">की</p>
+        <h2 class="hi" style="color:var(--maroon);font-family:var(--hi)">शादी खाना आबादी</h2>
+        <p class="para hi" lang="hi">इन्शाअल्लाह चाँद की तारीख 17 हिजरी 1448, बरोज शनिवार बमुताबिक अंग्रेजी तारीख 28 नवम्बर 2026 को निकाह होना करार पाई है।<br>लिहाजा आपसे गुजारिश है कि इस खुशी के मौके पर शिरकत फरमाकर शादी की रौनक बढ़ावें व दुल्हा-दुल्हन को अपनी नेक दुआओं से नवाजें।</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap wide">
+      <div class="title-pill reveal">प्रोग्राम-ए-शादी</div>
+      <p class="sub reveal">Wedding Events</p>
+      <div class="events" id="events"></div>
+      <p class="note hi reveal" lang="hi">नोट : बारात कलोल से जी.एम. गार्डन, बम्बा रोड, लालपुरा चौराह फिरोजाबाद के लिए प्रस्थान करेगी।</p>
+    </div>
+  </section>
+
+  <section class="count pattern">
+    <div class="wrap">
+      <div class="frame reveal">
+        <h2 class="gold">Counting the Moments</h2>
+        <p id="cdLabel" class="sub">&nbsp;</p>
+        <div class="cd" role="timer" aria-live="off">
+          <div><b id="cD">00</b><span>Days</span></div>
+          <div><b id="cH">00</b><span>Hours</span></div>
+          <div><b id="cM">00</b><span>Minutes</span></div>
+          <div><b id="cS">00</b><span>Seconds</span></div>
+        </div>
+        <p style="font-size:14px;color:var(--sage-d)">Indian Standard Time (IST, UTC+5:30)</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap card reveal">
+      <div class="pcard">
+        <div class="sides">
+          <div><h4>ननिहाल पक्ष :</h4><p>मरहूम मनोहर जी, मरहूम बल जी, अहमद जी, अकबर जी, अनवर जी, मकबुल जी<br>मुकाम : कोछोर</p></div>
+          <div class="r"><h4>फूफा पक्ष :</h4><p>मरहूम बली जी, कोछोर<br>बुन्दू जी, बधाल<br>हबीब जी, घाटवा</p></div>
+          <div><h4>जंवाई पक्ष :</h4><p>शेर मोहम्मद जी, मदनी मण्ढा<br>चिरागुद्दीन जी, दादिया<br>सत्तार जी, काकरा<br>हनीफ जी, रानोली<br>बाबूलाल जी, फलौदी<br>सोनू जी, जोधपुर<br>समीर जी, कुकनवाली</p></div>
+          <div class="r"><h4>नियाजमन्द :</h4><p><b>ताज मोहम्मद हुसैन भाई मणियार</b><br>मुकाम : पासर चोकड़ी, साहिल रेजीडेंसी<br>A-1 ब्लॉक, प्लाट नं.-403<br>कलोल, गांधी नगर (गुजरात)</p></div>
+        </div>
+        <div class="contact"><a href="tel:+917990066266">7990066266</a><a href="tel:+919104566372">9104566372</a><a href="tel:+918673003730">8673003730</a></div>
+        <div class="kids hi" lang="hi">नन्ही फरमाईश :<br><b>मेरे मामु/चाचु की शादी में जलूल-जलूल से आना जी</b><small>नवाजुद्दीन, रूहान, रेहान, असलान, सीफा, सना, मायरा, गुन्नू</small></div>
+        <h4 class="hi" style="color:var(--maroon);font-family:var(--hi);font-weight:500">आपकी आमद के मुन्तजिर :</h4>
+        <p class="muntazir" lang="hi">गफ्फुर जी, मनीर जी, कमरूद्दीन जी, ताज मोहम्मद, राज मोहम्मद, सलीम, सोनू, साहिल, इमरान, आरिफ, रोशन, रफीक, अमीत, आयान, रूहान, नवाजुद्दीन, असलान, गुलाबी, बाबूलाल (पांचवा), सुबान जी, अली मो. जी, सलीम जी (कुचामन), गनी जी, मनीर जी, बाबूलाल जी, साबुद्दीन जी, युसुफ जी (दांता), हाजी छीतर जी (बाय), मुनीर जी, बदरूद्दीन जी (चितावा), बाबूलाल जी, छीतर जी (रूपपुरा), फयाज जी (नांवा), घीसा जी, अजीज जी, रफीक जी (जिजोट), जुमा जी, गुलाब जी (जयपुर), समसुद्दीन जी, नसरूद्दीन जी (कालाडेरा), इमामुद्दीन जी, गनी जी (मन्हा), सराजुद्दीन एवं तमाम बाय के गौरी खानदान।</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 class="gold reveal">A Dua for the Couple</h2>
+      <p class="sub reveal">Tap the lantern to reveal a blessing</p>
+      <button class="lantern reveal" id="lantern" type="button" aria-expanded="false" aria-controls="duaBox">
+        <svg width="72" height="72" viewBox="0 0 64 64" aria-hidden="true"><use href="#flower"/></svg>
+        <span>Reveal the Dua</span>
+      </button>
+      <div class="dua" id="duaBox" hidden>
+        <div class="ar" lang="ar">بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</div>
+        <p class="tr">Barakallahu lakuma wa baraka ‘alaykuma wa jama‘a baynakuma fi khayr</p>
+        <p>May Allah bless you both, shower His blessings upon you, and unite you both in goodness.</p>
+        <button class="link" id="copyDua" type="button">Copy Dua</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="pattern" style="background-color:var(--cream)">
+    <div class="wrap reveal">
+      <h2 class="gold">Share the Joy</h2>
+      <p class="sub">Invite your family and friends</p>
+      <button class="wa" id="waBtn" type="button">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.100-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.4-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.6-.1l1.900.9c.3.1.5.2.5.3.1.2.1.8-.1 1.200z"/></svg>
+        Share on WhatsApp
+      </button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="ar" lang="ar">جَزَاكُمُ اللَّهُ خَيْرًا</div>
+  <svg class="flor" width="64" height="64"><use href="#flower"/></svg>
+  <p class="names gold" style="font-size:34px">Mohd Azharudin &amp; Saimaa Naaz</p>
+  <p class="by">Invitation by Taaj Mohd Maniyar</p>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  // ---------- Event data (exact details as supplied; times are IST) ----------
+  var EVENTS = [
+    {name:"Rasm-e-Nikah", hi:"रस्म-ए-निकाह", dateText:"Saturday, 28 November 2026", timeText:"7:00 PM", iso:"2026-11-28T19:00:00+05:30", venue:"G M Garden, Bombay Road, Lalpura Chauraya, Firozabad, Uttar Pradesh."},
+    {name:"Rasm-e-Bhaat", hi:"रस्म-ए-भात", dateText:"Tuesday, 1 December 2026", timeText:"5:00 PM", iso:"2026-12-01T17:00:00+05:30", venue:"Waadi, Kalol, Gujarat."},
+    {name:"Rasm-e-Walima", hi:"रस्म-ए-वलीमा", dateText:"Tuesday, 1 December 2026", timeText:"6:00 PM", iso:"2026-12-01T18:00:00+05:30", venue:"Waadi, Kalol, Gujarat."}
+  ].map(function(e){ e.ts = new Date(e.iso).getTime(); return e; });
+
+  function $(id){ return document.getElementById(id); }
+  function mapUrl(v){ return "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(v); }
+
+  function calUrl(e){
+    var m = e.iso.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+    var start = m[1] + m[2] + m[3] + "T" + m[4] + m[5] + "00";
+    var end = m[1] + m[2] + m[3] + "T" + pad(Number(m[4]) + 1) + m[5] + "00"; // placeholder 1-hour block
+    return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(e.name + " – Mohd Azharudin & Saimaa Naaz") +
+      "&dates=" + start + "/" + end + "&ctz=Asia%2FKolkata&location=" + encodeURIComponent(e.venue);
+  }
+  function pad(n){ return String(n).padStart(2, "0"); }
+
+  // ---------- Render event cards ----------
+  var evWrap = $("events");
+  EVENTS.forEach(function(e, i){
+    var d = document.createElement("article");
+    d.className = "ev reveal"; d.id = "ev" + i;
+    d.style.transitionDelay = (i * 0.12) + "s";
+    var no = document.createElement("span"); no.className = "no"; no.textContent = "Event " + (i + 1);
+    var h = document.createElement("h3"); h.textContent = e.name;
+    var hh = document.createElement("p"); hh.className = "hi"; hh.style.color = "var(--maroon)"; hh.textContent = e.hi;
+    var w = document.createElement("p"); w.className = "when"; w.textContent = e.dateText;
+    var t = document.createElement("p"); t.className = "when"; t.textContent = e.timeText;
+    var v = document.createElement("p"); v.className = "venue"; v.textContent = e.venue;
+    var a = document.createElement("a"); a.className = "link"; a.href = mapUrl(e.venue);
+    a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = "Get Directions";
+    var c = document.createElement("a"); c.className = "cal"; c.target = "_blank"; c.rel = "noopener noreferrer";
+    c.textContent = "Add to Calendar"; c.href = calUrl(e);
+    [no, h, hh, w, t, v, a, c].forEach(function(n){ d.appendChild(n); });
+    evWrap.appendChild(d);
+  });
+
+  // ---------- Countdown (targets next upcoming event) ----------
+  function tick(){
+    var now = Date.now(), next = null, idx = -1;
+    for (var i = 0; i < EVENTS.length; i++){ if (EVENTS[i].ts > now){ next = EVENTS[i]; idx = i; break; } }
+    EVENTS.forEach(function(_, i){ $("ev" + i).classList.toggle("next", i === idx); });
+    if (!next){
+      $("cdLabel").textContent = "Alhamdulillah – all celebrations have been completed.";
+      ["cD","cH","cM","cS"].forEach(function(id){ $(id).textContent = "00"; });
+      return;
+    }
+    var s = Math.floor((next.ts - now) / 1000);
+    $("cdLabel").textContent = "Until " + next.name;
+    $("cD").textContent = pad(Math.floor(s / 86400));
+    $("cH").textContent = pad(Math.floor(s % 86400 / 3600));
+    $("cM").textContent = pad(Math.floor(s % 3600 / 60));
+    $("cS").textContent = pad(s % 60);
+  }
+  tick(); setInterval(tick, 1000);
+
+  // ---------- Envelope opening ----------
+  $("openBtn").addEventListener("click", function(){
+    this.disabled = true;
+    $("env").classList.add("open");
+    setTimeout(function(){
+      $("intro").classList.add("gone");
+      $("main").classList.add("show");
+      document.body.style.overflow = "";
+      observe();
+      petals(22);
+    }, 2300);
+  });
+  document.body.style.overflow = "hidden";
+
+  // ---------- Scroll reveal ----------
+  function observe(){
+    var els = document.querySelectorAll(".reveal");
+    if (!("IntersectionObserver" in window)){ els.forEach(function(e){ e.classList.add("in"); }); return; }
+    var io = new IntersectionObserver(function(en){
+      en.forEach(function(x){ if (x.isIntersecting){ x.target.classList.add("in"); io.unobserve(x.target); } });
+    }, {threshold: .15});
+    els.forEach(function(e){ io.observe(e); });
+  }
+
+  // ---------- WhatsApp share ----------
+  $("waBtn").addEventListener("click", function(){
+    var link = location.href.split("#")[0];
+    var lines = ["*Wedding Invitation*", "", "Mohd Azharudin & Saimaa Naaz", "Invitation by Taaj Mohd Maniyar", ""];
+    EVENTS.forEach(function(e, i){
+      lines.push((i + 1) + ". *" + e.name + "*", "   " + e.dateText + ", " + e.timeText, "   " + e.venue, "");
+    });
+    lines.push("View the invitation: " + link);
+    window.open("https://wa.me/?text=" + encodeURIComponent(lines.join("\n")), "_blank", "noopener");
+  });
+
+  // ---------- Dua reveal ----------
+  var duaText = "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ";
+  $("lantern").addEventListener("click", function(){
+    var box = $("duaBox"), open = box.hidden;
+    box.hidden = !open;
+    this.classList.toggle("on", open);
+    this.setAttribute("aria-expanded", String(open));
+    this.querySelector("span").textContent = open ? "Hide the Dua" : "Reveal the Dua";
+    if (open){ petals(16); box.scrollIntoView({behavior: "smooth", block: "center"}); }
+  });
+  $("copyDua").addEventListener("click", function(){
+    var b = this;
+    function done(m){ b.textContent = m; setTimeout(function(){ b.textContent = "Copy Dua"; }, 1800); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(duaText).then(function(){ done("Copied ✓"); }, function(){ done("Copy not available"); });
+    } else done("Copy not available");
+  });
+
+  // ---------- Falling petals ----------
+  function petals(n){
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    for (var i = 0; i < n; i++){
+      var p = document.createElement("span");
+      p.className = "petal";
+      p.style.left = Math.random() * 100 + "vw";
+      p.style.setProperty("--dx", (Math.random() * 120 - 60) + "px");
+      p.style.animationDuration = (5 + Math.random() * 4) + "s";
+      p.style.animationDelay = (Math.random() * 1.5) + "s";
+      document.body.appendChild(p);
+      setTimeout(function(el){ el.remove(); }, 11000, p);
+    }
+  }
+})();
+</script>
+</body>
+</html>
